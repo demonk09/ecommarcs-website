@@ -5,6 +5,7 @@ import Men from './Components/Men'
 import Women from'./Components/Women'
 import About from'./Components/About'
 import Footer from './Components/Footer'
+
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import "./App.css"
 
@@ -20,6 +21,7 @@ function App() {
     
     </Routes>
     <Footer/>
+
   </BrowserRouter>
   
   )
